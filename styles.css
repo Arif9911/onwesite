@@ -1,0 +1,224 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    padding: 0;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.quote-button {
+    background: red; /* Changed from orange to red */
+    padding: 10px 20px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.services {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.services-header h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.services-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.service-item {
+    background: #333;
+    color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    width: 200px;
+    text-align: center;
+}
+
+.contact {
+    background: red; /* Changed from orange to red */
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.appointment-button {
+    background: #fff;
+    color: red; /* Changed from orange to red */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.process {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.process h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.process-steps {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.step {
+    width: 200px;
+    text-align: center;
+}
+
+
+
+/* About Us Section */
+.about-content {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* Blog Section */
+.blog-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.blog-post {
+    background: #f4f4f4;
+    padding: 20px;
+    border-radius: 5px;
+    width: 300px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.blog-post h2 {
+    margin-top: 0;
+}
+
+/* Pages Section */
+.pages-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.page-item {
+    background: #f4f4f4;
+    padding: 20px;
+    border-radius: 5px;
+    width: 300px;
+}
+
+.page-item h2 {
+    margin-top: 0;
+}
+
+/* Contact Us Section */
+.contact-us-content {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button[type="submit"] {
+    background: red; /* Changed from to red */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 2px;
+    margin-bottom: 10px;
+}
+
+
+
+footer {
+    background: #333;
+    color: #fff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.footer-section h4 {
+    margin-bottom: 20px;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin: 10px 0;
+}
+
+.footer-section ul li a {
+    color: #fff;
+    text-decoration: none;
+}
